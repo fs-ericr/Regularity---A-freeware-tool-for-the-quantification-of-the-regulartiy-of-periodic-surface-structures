@@ -1,4 +1,4 @@
-# **ReguΛlarity - Quantification of Surface Structure Regularity**
+# **ReguΛarity - Quantification of Surface Structure Regularity**
 
 ## **📌 Project Overview**
 The **Regularity Quantification Tool** is designed to analyze surface structures in images and quantify their regularity using **Fourier Transformation, P³S Method, and Gini Coefficients**. The software provides 1D and 2D Fourier analysis, visualizations, and statistical measures to assess structural periodicity and uniformity.
