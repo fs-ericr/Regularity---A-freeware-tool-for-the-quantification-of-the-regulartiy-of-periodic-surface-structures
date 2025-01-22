@@ -14,9 +14,11 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
   - Delta-phase analysis
   - Regularity Paremeter for for the regularity of period and the phase change
   - Gini Coefficient for quantifying distribution uniformity
+    
 ✔ **Visualization tools**:
   - Interactive plots for frequency, phase, and period distribution
   - Spectral analysis
+    
 ✔ **Export results** to CSV for further analysis  
 
 ---
