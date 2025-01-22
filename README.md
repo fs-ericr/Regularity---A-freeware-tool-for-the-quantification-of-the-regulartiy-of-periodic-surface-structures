@@ -12,7 +12,7 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
 ✔ **Computation of key statistical measures**:
   - Mean and standard deviation of period & phase
   - Delta-phase analysis
-  - Coefficient of Variation (CV) for structural regularity
+  - Regularity Paremeter for for the regularity of period and the phase change
   - Gini Coefficient for quantifying distribution uniformity
 ✔ **Visualization tools**:
   - Interactive plots for frequency, phase, and period distribution
