@@ -27,8 +27,8 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
 
 ###  Download & Run the Application**
 #### Use the Prebuilt `.exe` File**
-- Download the latest **executable file** from [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases).
-- Extract the downloaded ZIP file and **run `Regularity.exe`**.
+- Download the latest **setup_file** from [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases).
+- start the setup **run `Regularity.exe`**.
 
 ## **🖼 How to Use the GUI**
 
