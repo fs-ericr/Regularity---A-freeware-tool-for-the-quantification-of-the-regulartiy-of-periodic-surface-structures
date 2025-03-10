@@ -1,7 +1,7 @@
 # **ReguΛarity - Quantification of Surface Structure Regularity**
 
 ## **📌 Project Overview**
-The **Regularity Quantification Tool** is designed to analyze surface structures in images and quantify their regularity using **Fourier Transformation, P³S Method, and Gini Coefficients**. The software provides 1D and 2D Fourier analysis, visualizations, and statistical measures to assess structural periodicity and uniformity.
+The **Regularity Quantification Tool** is designed to analyze surface structures in images and quantify their regularity using **Fourier Transformation, P³S Method, and Gini Coefficients**. The software provides 1D and 2D Fourier analysis, visualizations, and statistical measures to assess structural periodicity and uniformity. The software also calculates the Dispersion of the LIPSS Orientation Angle (DLOA).
 
 ---
 
@@ -14,7 +14,7 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
   - Delta-phase analysis
   - Regularity Paremeter for for the regularity of period and the phase change
   - Gini Coefficient for quantifying distribution uniformity
-    
+✔ **Computation of the DLOA**  
 ✔ **Visualization tools**:
   - Interactive plots for frequency, phase, and period distribution
   - Spectral analysis
@@ -44,11 +44,12 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
    - Hanning-Window
 2. **Select Segment Width** to adjust analysis accuracy.
 3. **Set Decimal Precision** for numerical outputs.
+4. **Set a Notch-Filter** to filter the artefacts or noisy signals
 
 ### **3️⃣ Start Processing**
 - Click **"Set Image Info per File"** to input image properties.
 - Enable **Rotation** if needed.
-- Click **"Run Processing"** to execute the analysis.
+- Click **"Run Processing"** to execute the analysis via P³S-Method or DLOA.
 
 ### **4️⃣ View & Export Results**
 - Click **"Show Results Table"** for an overview.
@@ -60,9 +61,6 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
 
 ### **Image Data**
 - `image_name`: Processed image name.
-- `magnification`: Microscope magnification.
-- `width_px`, `height_px`: Image dimensions in pixels.
-- `width_um`, `height_um`: Image dimensions in micrometers.
 
 ### **Period Analysis**
 - `Mean Period X/Y`: Average period in X/Y direction.
@@ -85,6 +83,7 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
 - **FFT Spectrum**: Frequency domain representation.
 - **Period Distribution**: Plots period values along the segment.
 - **Phase Distribution**: Displays phase values and delta-phase variations.
+- **Intensity Spectrum** for analyzing the DLOA
 
 ---
 
