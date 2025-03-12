@@ -14,6 +14,7 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
   - Delta-phase analysis
   - Regularity Paremeter for for the regularity of period and the phase change
   - Gini Coefficient for quantifying distribution uniformity
+
 ✔ **Computation of the DLOA**  
 ✔ **Visualization tools**:
   - Interactive plots for frequency, phase, and period distribution
@@ -45,11 +46,12 @@ The **Regularity Quantification Tool** is designed to analyze surface structures
 2. **Select Segment Width** to adjust analysis accuracy.
 3. **Set Decimal Precision** for numerical outputs.
 4. **Set a Notch-Filter** to filter the artefacts or noisy signals
+5. **Rotate** the images using their Fourier transform 
 
 ### **3️⃣ Start Processing**
 - Click **"Set Image Info per File"** to input image properties.
 - Enable **Rotation** if needed.
-- Click **"Run Processing"** to execute the analysis via P³S-Method or DLOA.
+- Click **"Run DLOA/P³S-Method"** to execute the analysis.
 
 ### **4️⃣ View & Export Results**
 - Click **"Show Results Table"** for an overview.
