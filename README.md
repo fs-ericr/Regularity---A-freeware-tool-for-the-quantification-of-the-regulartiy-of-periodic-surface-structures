@@ -22,6 +22,7 @@ Download the latest executable (.exe) file from [GitHub Releases](https://github
 ---
 
 ## How to Use
+See [Manual.md](Manual.md) for more instructions
 
 1. Launch the ReguΛarity executable (.exe).
 2. Select your input image directory and define output paths.
