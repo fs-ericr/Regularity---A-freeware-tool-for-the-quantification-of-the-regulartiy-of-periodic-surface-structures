@@ -1,4 +1,4 @@
-# **ReguΛarity - Quantification of Periodic Surface Structure Regularity**
+# **ReguΛarity - A freeware tool for the quantification of the regularity of periodic surface structures**
 
 ## **📌 Project Overview**
 The **Regularity Quantification Tool** is designed to analyze surface structures in images and quantify their regularity using **Fourier Transformation, P³S Method, and Gini Coefficients**. The software provides 1D and 2D Fourier analysis, visualizations, and statistical measures to assess structural periodicity and uniformity. The software also calculates the Dispersion of the LIPSS Orientation Angle (DLOA).
