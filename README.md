@@ -58,6 +58,6 @@ Your Name, ReguΛarity Software, Version X.X, YYYY, URL
 For questions, support, or feedback, feel free to contact:
 
 **Eric Rahner**  
-*Friedrich Schiller University (FSU), Otto Schott Institute for Materials Research (OSIM)*  
+*Otto Schott Institute for Materials Research (OSIM), Friedrich Schiller University (FSU)*  
 *eric.rahner@uni-jena.de*
 
