@@ -1,96 +1,129 @@
-# **ReguΛarity - A freeware tool for the quantification of the regularity of periodic surface structures**
+# ReguΛarity – Comprehensive User Guide
+![LoadingScreen](https://github.com/user-attachments/assets/3015dcb9-6bd4-42f2-9537-d34be70a5c8a)
 
-## **📌 Project Overview**
-The **Regularity Quantification Tool** is designed to analyze surface structures in images and quantify their regularity using **Fourier Transformation, P³S Method, and Gini Coefficients**. The software provides 1D and 2D Fourier analysis, visualizations, and statistical measures to assess structural periodicity and uniformity. The software also calculates the Dispersion of the LIPSS Orientation Angle (DLOA).
 
----
+## Introduction
 
-## **🚀 Key Features**
-✔ **Graphical User Interface (GUI)** for intuitive operation  
-✔ **Custom segmentation width** (1 px or more for accuracy adjustment)  
-✔ **Fourier Transform Analysis (FFT, P³S Method, Gini Coefficients)**  
-✔ **Computation of key statistical measures**:
-  - Mean and standard deviation of period & phase
-  - Delta-phase analysis
-  - Regularity Paremeter for for the regularity of period and the phase change
-  - Gini Coefficient for quantifying distribution uniformity
+ReguΛarity software provides researchers and engineers with a powerful graphical tool for the detailed and automated analysis and quantification of the regularity of laser-induced periodic surface structures (LIPSS). ReguΛarity integrates advanced mathematical methods such as Fourier transformation, the Perpendicular, Period, and Phase Scanning (P³S) method, Gini coefficient analysis, and the calculation of the Dispersion of the LIPSS Orientation Angle (DLOA). This enables precise, reproducible, and efficient examination of surface structures.
 
-✔ **Computation of the DLOA**  
-✔ **Visualization tools**:
-  - Interactive plots for frequency, phase, and period distribution
-  - Spectral analysis
-    
-✔ **Export results** to CSV for further analysis  
+## Installation and Startup
 
----
+Follow these simple steps to install the software:
 
-## **📥 Installation & Setup**
+1. Download the latest version of the executable file (`ReguΛarity.exe`) from the [GitHub Releases section](#).
+2. Save the file to an appropriate folder on your computer.
+3. Double-click the file to launch the software.
 
-###  Download & Run the Application**
-#### Use the Prebuilt `.exe` File**
-- Download the latest **setup_file** from [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases).
-- start the setup **run `Regularity.exe`**.
+## User Interface and General Usage
 
-## **🖼 How to Use the GUI**
+The user interface is intuitive and includes the following key elements:
 
-### **1️⃣ Select Image Directory**
-1. Click **"Browse"** under **Input Directory** to select the folder containing images.
-2. Click **"Browse"** under **Output Directory** to choose where to save results.
+- **Input Directory:** Folder selection for your image data.
+- **Output Directory:** Destination folder for analysis results and exported data.
+  **File Infos:** Insert the correct physical dimensions of your images
 
-### **2️⃣ Configure Processing Parameters**
-1. **Choose a Preprocessing Filter:**
-   - None
-   - Substract Mean + Hanning-Window
-   - Substract Mean
-   - Hanning-Window
-2. **Select Segment Width** to adjust analysis accuracy.
-3. **Set Decimal Precision** for numerical outputs.
-4. **Set a Notch-Filter** to filter the artefacts or noisy signals
-5. **Rotate** the images using their Fourier transform 
+Ensure the correct paths are set before beginning analysis to avoid errors.
 
-### **3️⃣ Start Processing**
-- Click **"Set Image Info per File"** to input image properties.
-- Enable **Rotation** if needed.
-- Click **"Run DLOA/P³S-Method"** to execute the analysis.
+## Parameter Settings
 
-### **4️⃣ View & Export Results**
-- Click **"Show Results Table"** for an overview.
-- Click **"Export CSV"** to save results.
+### Segment & Compute
 
----
+The P³S method systematically analyzes period and phase data of LIPSS structures. You can adjust the following parameters:
 
-## **📊 Understanding the Output**
+- **Filter Options:**
+  - **Hann Window:** Reduces artifacts in Fourier transformation by applying smooth transitions at image edges, enhancing frequency spectrum quality.
+  - **Mean Subtraction:** Enhances image contrast by subtracting the mean grayscale value, aiding in accurate period detection.
+  - **Combined:** Optimal combination of both filters for highest accuracy and stability.
 
-### **Image Data**
-- `image_name`: Processed image name.
+- **Segment Width (px):**
+  - Default is `1 px`, providing maximum spatial resolution and accuracy for period and phase determination.
+  - Larger segment widths accelerate analysis but reduce local resolution.
 
-### **Period Analysis**
-- `Mean Period X/Y`: Average period in X/Y direction.
-- `SD Period X/Y`: Standard deviation of period.
-- `mf_px/py`: Most frequent period.
-- `mf_fx/fy`: Most frequent frequency.
-- `cv_x/y`: Regularity of Period.
-- `gini_period_x/y`: Gini coefficient of period distribution.
+- **Notch Filter (1/µm):**
+  - Acts as a circular aperture in frequency space, restricting analysis to relevant structural sizes.
+  - Default value is `0.1 1/µm`. Adjusting the notch filter allows targeted analysis of High Spatial Frequency LIPSS (HSFL) or Low Spatial Frequency LIPSS (LSFL).
 
-### **Phase Analysis**
-- `Mean Phase X/Y`: Mean phase value.
-- `SD Phase X/Y`: Standard deviation of phase.
-- `Mean Delta-Phase X/Y`: Mean delta-phase.
-- `SD Delta-Phase X/Y`: Standard deviation of delta-phase.
-- `Gini Delta-Phase X/Y`: Gini coefficient of delta-phase distribution.
+- **Decimals:**
+  - Sets the number of decimal places for result display and storage. 
+- **Correction Factor:**
+  - Default is `0.99`. Reduces edge effects caused by the Hann Window, preventing distortion of the mean period.
 
----
+- **Rotation:**
+  - Automatically aligns structures to the x-axis using Fourier transformation. This ensures consistent structural orientation, improves analysis precision, and minimizes artifacts.
 
-## **📊 Visualization Features**
-- **FFT Spectrum**: Frequency domain representation.
-- **Period Distribution**: Plots period values along the segment.
-- **Phase Distribution**: Displays phase values and delta-phase variations.
-- **Intensity Spectrum** for analyzing the DLOA
+### DLOA Calculation
 
----
+The DLOA calculation quantifies structure orientation, offering the following methods:
 
-## **📬 Contact & Support**
-For any issues or feature requests, please **open an Issue on GitHub** or contact the developer directly.
+- **Gradient Methods:**
+  - **Riesz Filters (recommended):** Robust, isotropic gradient calculation with high stability and quality, ideal for fine structures and sensitive analyses.
+  - **Gaussian:** Effective results for noisier images.
+  - **Finite Difference:** Faster but less accurate method, suitable for preliminary analyses.
+  - **Splines:** Highest precision for exceptionally smooth surface structures.
 
-📌 **Latest Release:** [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases).
+- **Local Window σ (px):**
+  - Determines how strongly adjacent pixels influence the structure tensor calculation.
+  - Default value `σ=1 px` offers maximum spatial accuracy but increases noise sensitivity.
+  - Larger values enhance noise stability but reduce spatial detail resolution.
 
+- **Rotation:**
+  - Automatically aligns structures to the x-axis using Fourier transformation. This ensures consistent structural orientation, improves analysis precision, and minimizes artifacts.
+
+## Conducting an Analysis
+
+1. Ensure input and output directories are correctly set.
+2. Select the desired parameters (P³S or DLOA).
+3. Start the analysis by clicking the "Start Calculation" button.
+4. Optionally define a Region of Interest (ROI) to exclude artifacts and focus analysis on specific areas.
+5. Confirm your selection to start the analysis automatically.
+
+## Results Display and Visualization
+
+### Data Browser
+
+Upon analysis completion, the Data Browser opens automatically, interactively displaying:
+- Processed grayscale image after filtering.
+- 2D Fourier spectrum of raw data.
+- Distributions of periods (Λ), phases (φ), and phase changes (Δφ).
+
+These interactive visualizations enable direct examination and saving of results.
+
+### Results Table
+
+Summarizes all quantitative results compactly:
+- regularity of period (RΛ)
+- Phase (φ) and phase changes (Δφ)
+- Gini coefficient (G)
+- DLOA (Dispersion of the LIPSS Orientation Angle)
+- ...
+
+Exportable as a CSV file for further analysis.
+
+
+## Data Export and Further Processing
+
+Saved data includes:
+- (optional) Processed images
+- (optional) Interactive plots
+- Results in Excel-compatible CSV files
+
+## Troubleshooting and Recommendations
+
+- Supported image formats: `.jpg`, `.png`, `.tif`.
+- Utilize optimal parameter and ROI settings.
+- If unexplained errors occur, restart ReguΛarity and verify your parameter settings.
+
+## Citation
+
+Please cite ReguΛarity as follows:
+
+```
+Rahner et al., ReguΛarity Software, Version X.X, Year, URL
+```
+
+## Contact and Support
+
+For questions or technical support, contact:
+
+**Eric Rahner**, Otto Schott Institute of Materials Research, Friedrich Schiller University Jena  
+*Email: eric.rahner@uni-jena.de*
