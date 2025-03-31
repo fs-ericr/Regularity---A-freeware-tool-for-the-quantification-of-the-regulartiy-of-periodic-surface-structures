@@ -39,7 +39,7 @@ This software is distributed under a freeware license:
 - Redistribution of the unmodified software is allowed.
 - Modification, reverse engineering, commercial usage, and sale are prohibited.
 
-See [LICENSE]([LICENSE.txt](https://github.com/fs-ericr/Regularity---A-freeware-tool-for-the-quantification-of-the-regulartiy-of-periodic-surface-structures/blob/main/LICENSE)) for complete details.
+See LICENSE([LICENSE.txt](https://github.com/fs-ericr/Regularity---A-freeware-tool-for-the-quantification-of-the-regulartiy-of-periodic-surface-structures/blob/main/LICENSE)) for complete details.
 
 ---
 
