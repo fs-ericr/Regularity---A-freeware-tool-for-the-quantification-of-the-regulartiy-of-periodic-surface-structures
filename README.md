@@ -2,7 +2,7 @@
 
 ## A freeware software for quantifying the regularity of periodic surface structures
 
-ReguΛarity is an easy-to-use graphical user interface (GUI) application designed for scientists and researchers working in the fields of laser-induced periodic surface structures (LIPSS), surface pattern analysis, and materials science. The software allows users to quickly and accurately quantify the regularity of periodic structures on material surfaces using image-based analytical methods.
+ReguΛarity is an easy-to-use graphical user interface (GUI) application designed for scientists and researchers that allows users to quickly and accurately quantify the regularity of periodic structures on material surfaces using image-based analytical methods.
 
 ---
 
@@ -52,6 +52,9 @@ Your Name, ReguΛarity Software, Version X.X, YYYY, URL
 ```
 
 ---
+## Funding
+This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project Number 530345255. 
+
 
 ## Contact & Support
 
