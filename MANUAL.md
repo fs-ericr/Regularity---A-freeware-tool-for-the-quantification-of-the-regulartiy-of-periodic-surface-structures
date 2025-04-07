@@ -1,4 +1,4 @@
-# ReguΛarity – Comprehensive User Guide
+# ReguΛarity – User Guide
 ![LoadingScreen](https://github.com/user-attachments/assets/3015dcb9-6bd4-42f2-9537-d34be70a5c8a)
 
 
