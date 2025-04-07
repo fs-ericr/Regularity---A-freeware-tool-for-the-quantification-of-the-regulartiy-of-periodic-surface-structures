@@ -20,7 +20,7 @@ The user interface is intuitive and includes the following key elements:
 
 - **Input Directory:** Folder selection for your image data.
 - **Output Directory:** Destination folder for analysis results and exported data.
-  **File Infos:** Insert the correct physical dimensions of your images
+- **File Infos:** Insert the correct physical dimensions of your images
 
 Ensure the correct paths are set before beginning analysis to avoid errors.
 
@@ -66,7 +66,7 @@ The DLOA calculation quantifies structure orientation, offering the following me
   - Default value `σ=1 px` offers maximum spatial accuracy but increases noise sensitivity.
   - Larger values enhance noise stability but reduce spatial detail resolution.
 
-- **Rotation:**
+- **Rotation:** (experimental)
   - Automatically aligns structures to the x-axis using Fourier transformation. This ensures consistent structural orientation, improves analysis precision, and minimizes artifacts.
 
 ## Conducting an Analysis
