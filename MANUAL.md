@@ -48,7 +48,7 @@ The P³S method systematically analyzes period and phase data of LIPSS structure
 - **Correction Factor:**
   - Default is `0.99`. Reduces edge effects caused by the Hann Window, preventing distortion of the mean period.
 
-- **Rotation:**
+- **Rotation:** (experimental)
   - Automatically aligns structures to the x-axis using Fourier transformation. This ensures consistent structural orientation, improves analysis precision, and minimizes artifacts.
 
 ### DLOA Calculation
