@@ -1,6 +1,6 @@
 # ReguΛarity
 
-## A freeware software for quantifying the regularity of periodic surface structures
+## ReguΛarity – A freeware tool for the objective quantification of the regularity of periodic surface structures
 
 ReguΛarity is an easy-to-use graphical user interface (GUI) application designed for scientists and researchers that allows users to quickly and accurately quantify the regularity of periodic structures on material surfaces using image-based analytical methods.
 
