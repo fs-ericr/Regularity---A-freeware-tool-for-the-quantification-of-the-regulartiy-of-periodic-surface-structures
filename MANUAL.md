@@ -85,6 +85,7 @@ Upon analysis completion, the Data Browser opens automatically, interactively di
 - Processed grayscale image after filtering.
 - 2D Fourier spectrum of raw data.
 - Distributions of periods (Λ), phases (φ), and phase changes (Δφ).
+- Spectrum of Orientation.
 
 These interactive visualizations enable direct examination and saving of results.
 
