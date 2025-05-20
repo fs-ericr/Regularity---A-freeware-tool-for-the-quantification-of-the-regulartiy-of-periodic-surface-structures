@@ -17,7 +17,7 @@ ReguΛarity is an easy-to-use graphical user interface (GUI) application designe
 
 ## Installation
 
-Download the latest executable (.exe) file from [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases). section. No additional installation is required.
+Download the latest windows setup (.exe) file from [GitHub Releases](https://github.com/fs-ericr/Regularity---Quantification-of-the-Regularity-of-surface-structures/releases). section. No additional installation is required.
 
 ---
 
