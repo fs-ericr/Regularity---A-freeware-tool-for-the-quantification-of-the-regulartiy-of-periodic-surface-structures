@@ -28,7 +28,7 @@ Ensure the correct paths are set before beginning analysis to avoid errors.
 
 ### Segment & Compute
 
-The P³S method systematically analyzes period and phase data of LIPSS structures. You can adjust the following parameters:
+The S&C method systematically analyzes period and phase data of LIPSS structures. You can adjust the following parameters:
 
 - **Filter Options:**
   - **Hann Window:** Reduces artifacts in Fourier transformation by applying smooth transitions at image edges, enhancing frequency spectrum quality.
@@ -72,7 +72,7 @@ The DLOA calculation quantifies structure orientation, offering the following me
 ## Conducting an Analysis
 
 1. Ensure input and output directories are correctly set.
-2. Select the desired parameters (P³S or DLOA).
+2. Select the desired parameters (Segment & Compute or DLOA).
 3. Start the analysis by clicking the "Start Calculation" button.
 4. Optionally define a Region of Interest (ROI) to exclude artifacts and focus analysis on specific areas.
 5. Confirm your selection to start the analysis automatically.
