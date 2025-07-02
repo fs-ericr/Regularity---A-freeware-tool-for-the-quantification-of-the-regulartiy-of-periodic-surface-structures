@@ -52,7 +52,7 @@ See [LICENSE.txt](https://github.com/fs-ericr/Regularity---A-freeware-tool-for-t
 If you use ReguΛarity for research or publications, please cite the software accordingly:
 
 ```
-Your Name, ReguΛarity Software, Version X.X, YYYY, URL
+Rahner et al, ReguΛarity Software, Version X.X, YYYY, URL
 ```
 
 ---
