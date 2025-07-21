@@ -26,7 +26,7 @@ Download the latest executable (.exe) file from [GitHub Releases](https://github
 ---
 
 ## How to Use
-See [MANUAL.md](https://github.com/fs-ericr/Regularity---A-freeware-tool-for-the-quantification-of-the-regulartiy-of-periodic-surface-structures/blob/main/MANUAL.md) for more instructions
+See [MANUAL.txt](https://github.com/fs-ericr/Regularity---A-freeware-tool-for-the-quantification-of-the-regulartiy-of-periodic-surface-structures/blob/main/MANUAL.txt) for more instructions
 
 1. Launch the ReguΛarity executable (.exe).
 2. Select your input image directory and define output paths.
