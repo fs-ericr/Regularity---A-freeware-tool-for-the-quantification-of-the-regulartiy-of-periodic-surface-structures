@@ -38,14 +38,14 @@ The P³S method systematically analyzes period and phase data of LIPSS structure
   - Default is `1 px`, providing maximum spatial resolution and accuracy for period and phase determination.
   - Larger segment widths accelerate analysis but reduce local resolution.
 
-- **Notch Filter (1/µm):**
+- **High-Pass Filter (1/µm):**
   - Acts as a circular aperture in frequency space, restricting analysis to relevant structural sizes.
-  - Default value is `0.1 1/µm`. Adjusting the notch filter allows targeted analysis of High Spatial Frequency LIPSS (HSFL) or Low Spatial Frequency LIPSS (LSFL).
+  - Default value is `0.1 1/µm`. Adjusting the high-pass allows targeted analysis of High Spatial Frequency LIPSS (HSFL) or Low Spatial Frequency LIPSS (LSFL).
 
 - **Decimals:**
   - Sets the number of decimal places for result display and storage. 
 - **Correction Factor:**
-  - Default is `0.99`. Reduces edge effects caused by the Hann Window, preventing distortion of the mean period.
+  - Default is `1.00`. Reduces edge effects caused by the Hann Window, preventing distortion of the mean period.
 
 - **Rotation:** (experimental)
   - Automatically aligns structures to the x-axis using Fourier transformation. This ensures consistent structural orientation, improves analysis precision, and minimizes artifacts.
@@ -126,3 +126,4 @@ For questions or technical support, contact:
 
 **Eric Rahner**, Otto Schott Institute of Materials Research, Friedrich Schiller University Jena  
 *Email: eric.rahner@uni-jena.de*
+
