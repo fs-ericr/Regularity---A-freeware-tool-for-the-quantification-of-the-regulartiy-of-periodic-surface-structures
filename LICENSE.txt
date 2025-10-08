@@ -4,4 +4,4 @@ Redistribution in unmodified form is permitted. Modification, decompilation, com
 ReguΛarity.exe © 2025 by Eric Rahner is licensed under  CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 Please cite:
-Rahner et al. ...
+Rahner, Eric and Thiele, Tobias and Voss, Heike and Müller, Frank A. and Bonse, Jörn and Gräf, Stephan, ReguΛarity – A free software for the objective quantification of the regularity of laser-generated periodic surface structures. Available at SSRN: https://ssrn.com/abstract=5464158 or http://dx.doi.org/10.2139/ssrn.5464158 Titel anhand dieser DOI in Citavi-Projekt übernehmen
