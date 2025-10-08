@@ -117,7 +117,7 @@ Saved data includes:
 Please cite ReguΛarity as follows:
 
 ```
-Rahner et al., ReguΛarity Software, Version X.X, Year, URL
+Rahner, Eric and Thiele, Tobias and Voss, Heike and Müller, Frank A. and Bonse, Jörn and Gräf, Stephan, ReguΛarity – A free software for the objective quantification of the regularity of laser-generated periodic surface structures. Available at SSRN: https://ssrn.com/abstract=5464158 or http://dx.doi.org/10.2139/ssrn.5464158 Titel anhand dieser DOI in Citavi-Projekt übernehmen
 ```
 
 ## Contact and Support
@@ -126,4 +126,5 @@ For questions or technical support, contact:
 
 **Eric Rahner**, Otto Schott Institute of Materials Research, Friedrich Schiller University Jena  
 *Email: eric.rahner@uni-jena.de*
+
 
