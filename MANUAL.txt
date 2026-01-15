@@ -117,7 +117,8 @@ Saved data includes:
 Please cite ReguΛarity as follows:
 
 ```
-Rahner, Eric and Thiele, Tobias and Voss, Heike and Müller, Frank A. and Bonse, Jörn and Gräf, Stephan, ReguΛarity – A free software for the objective quantification of the regularity of laser-generated periodic surface structures. Available at SSRN: https://ssrn.com/abstract=5464158 or http://dx.doi.org/10.2139/ssrn.5464158 Titel anhand dieser DOI in Citavi-Projekt übernehmen
+Eric Rahner, Tobias Thiele, Heike Voss, Frank A. Müller, Jörn Bonse, Stephan Gräf,
+Objective, high-throughput regularity quantification of laser-induced periodic surface structures (LIPSS),Applied Surface Science,2026,165919,ISSN 0169-4332, https://doi.org/10.1016/j.apsusc.2026.165919.
 ```
 
 ## Contact and Support
@@ -126,5 +127,6 @@ For questions or technical support, contact:
 
 **Eric Rahner**, Otto Schott Institute of Materials Research, Friedrich Schiller University Jena  
 *Email: eric.rahner@uni-jena.de*
+
 
 
